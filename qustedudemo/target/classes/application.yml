@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        username: root
+        password: 123456
+        url: jdbc:mysql://192.168.17.22:3306/edudemo?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        type: com.zaxxer.hikari.HikariDataSource
+    redis:
+        host: 192.168.17.22
+        port: 6379
+        connect-timeout: 1000
+server:
+    port: 8090
+
